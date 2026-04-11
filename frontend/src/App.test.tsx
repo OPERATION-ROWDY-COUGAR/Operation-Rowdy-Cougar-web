@@ -11,5 +11,5 @@ describe('The main app', () => {
   it('should render the Payments link', () => {
     render(<App />);
     expect(screen.getByText('Payments')).toBeInTheDocument();
-  })
+  });
 });
