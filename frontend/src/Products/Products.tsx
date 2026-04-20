@@ -30,8 +30,8 @@ function Products() {
 
   return (
     <ul className="products">
-      {products.map((product) => (
-        <li key={product.name}>
+      {products.map(product => (
+        <li key={product.id}>
           <div className="product">
             <img
               className="product-image"
